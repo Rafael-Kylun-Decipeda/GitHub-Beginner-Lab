@@ -55,7 +55,7 @@
             // txtPhone
             // 
             txtPhone.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtPhone.Location = new Point(45, 188);
+            txtPhone.Location = new Point(30, 386);
             txtPhone.MaxLength = 11;
             txtPhone.Name = "txtPhone";
             txtPhone.Size = new Size(134, 29);
@@ -66,7 +66,7 @@
             // 
             lblcontacts.AutoSize = true;
             lblcontacts.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblcontacts.Location = new Point(45, 164);
+            lblcontacts.Location = new Point(30, 362);
             lblcontacts.Name = "lblcontacts";
             lblcontacts.Size = new Size(214, 21);
             lblcontacts.TabIndex = 3;
