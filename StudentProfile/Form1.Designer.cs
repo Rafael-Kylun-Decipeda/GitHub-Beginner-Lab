@@ -47,9 +47,8 @@
             lblcontact.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblcontact.Location = new Point(30, 383);
             lblcontact.Name = "lblcontact";
-            lblcontact.Size = new Size(292, 25);
+            lblcontact.Size = new Size(0, 25);
             lblcontact.TabIndex = 1;
-            lblcontact.Text = "Contact Number: 09171234567";
             // 
             // Form1
             // 
