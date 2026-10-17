@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lblName = new Label();
+            lblcontact = new Label();
             SuspendLayout();
             // 
             // lblName
@@ -40,11 +41,21 @@
             lblName.Size = new Size(0, 65);
             lblName.TabIndex = 0;
             // 
+            // lblcontact
+            // 
+            lblcontact.AutoSize = true;
+            lblcontact.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblcontact.Location = new Point(30, 383);
+            lblcontact.Name = "lblcontact";
+            lblcontact.Size = new Size(0, 25);
+            lblcontact.TabIndex = 1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(935, 597);
+            Controls.Add(lblcontact);
             Controls.Add(lblName);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +67,6 @@
         #endregion
 
         private Label lblName;
+        private Label lblcontact;
     }
 }
