@@ -9,7 +9,7 @@ namespace StudentProfile
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lblName.Text = "Student Profile — Juan Dela Cruz";
+            lblName.Text = "Student Profile — GitHub Beginner Lab";
         }
     }
 }
